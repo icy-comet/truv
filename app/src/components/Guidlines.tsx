@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, Separator, Button } from "@radix-ui/themes";
-import "@radix-ui/themes/styles.css"; // Ensure styles are applied
+import "@radix-ui/themes/styles.css";
 import { JSX } from "react";
 
 export default function VotingGuidelines(): JSX.Element {

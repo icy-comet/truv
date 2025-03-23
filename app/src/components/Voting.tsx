@@ -9,15 +9,14 @@ const Voting_Component = () => {
       <div className="h-64 flex-auto">
         <div className="flex justify-between px-10 pt-10">
           <div className="flex flex-col gap-10">
-            <h1 className="">
+            <h1>
               <span className="text-[#d85c02]">Welcome</span>, Student !
             </h1>
-            <div className="">
+            <div>
               <CandidateList />
             </div>
           </div>
           <div>
-            {/* <h3 className="text-[38px] font-medium">Election Ends in</h3> */}
             <ElectionTimer electionEndingTime={electionEndingTime} />
           </div>
         </div>

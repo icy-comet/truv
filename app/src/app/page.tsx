@@ -2,7 +2,7 @@ import Navbar from "@/components/NavBar";
 import HeroSection from "../components/HeroSection";
 import "./globals.css";
 import WhyVoteComponent from "@/components/WhyVote";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
